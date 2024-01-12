@@ -1,11 +1,6 @@
 
 
 
-.mid-right, .mid-right-options, .mid-right-options img, .mid-right-options a {
-    display: flex;
-    align-items: center;
-}
-
 .mid-right {
     justify-content: space-between;
     margin-right: 50px;
