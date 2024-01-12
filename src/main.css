@@ -1,13 +1,4 @@
-.boyan-image {
-    margin-left: 24px;
-    margin-top: 10.72px;
-}
-
-.mid-right-options-modal, .mid-right-options-modal img, .mid-right-options-modal a {
-    display: none;
-}
-
-.bottom-mobile, .connect-mobile, .mobile, .mid-mobile, .show-1280 {
+.mobile, .mid-mobile, .show-1280 {
     display: none;
 }
 
@@ -310,12 +301,6 @@ body {
 .left-top a {
     padding: auto;
     white-space: nowrap;
-}
-
-@media (min-width: 1280px) {
-    .mid-right-options-mobile {
-        display: none;
-    }
 }
 
 @media (max-width: 1420px) {
