@@ -1,47 +1,5 @@
 
 
-
-.mid-right {
-    justify-content: space-between;
-    margin-right: 50px;
-}
-
-.mid-right-options {
-    align-items: baseline;
-    margin-right: 76px;
-}
-
-
-.mid-right-options a {
-    display: flex;
-    font-family: 'Montserrat';
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0px;
-    text-align: left;
-    text-decoration: none;
-    margin-left: 40px;
-}
-
-/* .mid-left {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 826px;
-    margin-left: 50px;
-} */
-
-.mid {
-    margin-bottom: 30px;
-    margin-top: 30px;
-    height: 70px;
-    max-height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 body {
     all: unset;
     background: #0E2D43;
