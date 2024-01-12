@@ -157,11 +157,6 @@ body {
     }
 }
 
-@media (min-width: 801px) {
-    .burger {
-        display: none;
-    }
-}
 
 @media (max-width: 801px) {
     .left-top {
