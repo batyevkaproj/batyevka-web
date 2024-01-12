@@ -101,17 +101,6 @@
     margin-bottom: 1px;
 }
 
-.spann, .spann-mobile {
-    position: absolute;
-    display: block;
-}
-
-.spann {
-    height: 3.43px;
-    width: 60%;
-    background: white;
-    margin-left: 14px;
-}
 
 .spann-mobile {
     height: 2px;
