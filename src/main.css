@@ -191,10 +191,6 @@
     margin-right: 76px;
 }
 
-.mid-right-options img {
-    position: relative;
-    padding-bottom: 10px;
-}
 
 .mid-right-options a {
     display: flex;
@@ -231,7 +227,7 @@ body {
     background: #0E2D43;
 }
 
-.small-icon-arrow, .small-icon, .med-icon, .med-icon-modal {
+.small-icon-arrow, .small-icon, .med-icon-modal {
     position: relative;
     top: 4px;
     right: 10px;
@@ -241,9 +237,6 @@ body {
     margin-left: 10px;
 }
 
-.med-icon {
-    margin-left: 15px;
-}
 
 .top, .left-top, .right-top, .mid-top, .tel-arrow, .tel, .right-top a, .left-top a {
     display: flex;
