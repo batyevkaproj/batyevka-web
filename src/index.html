@@ -11,6 +11,10 @@
         font-family: 'Montserrat';
         src: url('./fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
     }
+    @font-face {
+        font-family: 'MontserratBold';
+        src: url('./fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+    }
     </style>
 </head>
 <body bg-[#0E2D43]>
@@ -118,18 +122,20 @@
             </div>
         </div>
     </div>
-    <main class="mx-auto w-[1110px]">
+    <main class="mx-auto w-[1110px] bg-[#0E2D43]">
         <div class="h-[446px]  w-[1110px] flex items-center justify-between" \>
             <div>
-                <h1 class="font-['Montserrat'] font-semibold text-[60px] font-bold	">Интернет <span class="text-[#56AABF]">в офис</span></h1>
-                <li>
-                    <ul>Безлимитные и неограниченные тарифные планы</ul>
-                    <ul>Гарантированная скорость – симметричный высокоскоростной канал с постоянной скоростью доступа в сеть Интернет</ul>
-                    <ul>Организация доступа в интеренет по лучшей технологии (Оптоволокно)</ul>
+                <h1 class="font-['MontserratBold'] font-semibold text-[60px] font-bold text-white">Интернет <span class="text-[#56AABF]">в офис</span></h1>
+                <li class="list-none">
+                    <ul><img src="img/infinity.png" class="inline-flex">Безлимитные и неограниченные тарифные планы</ul>
+                    <ul><img src="img/sign.png" class="inline-flex">Гарантированная скорость – симметричный высокоскоростной канал с постоянной скоростью доступа в сеть Интернет</ul>
+                    <ul><img src="img/cable.png" class="inline-flex">Организация доступа в интеренет по лучшей технологии (Оптоволокно)</ul>
                 </li>
                 <button class="bg-[#56AABF] text-white rounded-full h-[60px] w-[155px] cursor-pointer font-['Montserrat'] font-semibold shadow-[0_4px_20px_0_#56AABF80]">Заказать</button>
             </div>
-            <div>321</div>
+            <div>
+                <img src="img/Vector.svg">
+            </div>
         </div>
     </main>
 </body>
