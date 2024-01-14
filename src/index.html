@@ -14,7 +14,6 @@
     </style>
 </head>
 <body bg-[#0E2D43]>
-  </div>
     <header>
         <div class="flex justify-between items-center bg-[#56AABF] h-[60px]  max-[720px]:bg-[#0E2D43]">
             <nav class="space-x-4 ml-[50px] font-['Montserrat'] text-white max-[720px]:hidden">
@@ -50,7 +49,7 @@
         </div>
 
         <div class="flex justify-between items-center h-[70px] my-[30px] max-[720px]:h-[50px] max-[720px]:my-0">
-            <nav class="flex items-center space-x-4 ml-[50px] min-w-max">
+            <nav class="flex items-center space-x-4 ml-[50px] min-w-max max-[720px]:ml-[20px]">
                 <a class=""><img class="flex-shrink-0 max-[720px]:w-[158px]" src="img/logo.svg"></a>
                 <a class="max-[1666px]:hidden"><img class="min-w-full" src="img/bandit-ban.svg"></a>
             </nav>
@@ -60,7 +59,7 @@
                     class="relative ml-[15px] w-8 h-8"></a>
             <a class="text-[#5984B3] min-[1280px]:hidden max-[801px]:hidden"><img src="img/gear.svg"
                     class="relative ml-[15px] w-8 h-8"></a>
-            <nav class="mr-[50px] space-between flex items-center">
+            <nav class="mr-[50px] max-[720px]:mr-[20px] space-between flex items-center">
                 <div class="flex items-center max-[1280px]:hidden mr-[76px] font-['Montserrat'] font-semibold ">
                     <a class="text-[#51B18B] flex items-center"><img src="img/wallet.svg"
                             class="relative ml-[15px] w-8 h-8"><span class="ml-[15px]">Оплата</span></a>
@@ -71,7 +70,7 @@
                 </div>
                 <button class="bg-[#DC662D] text-white rounded-full h-[60px] w-[270px] cursor-pointer font-['Montserrat'] font-semibold shadow-[0_4px_20px_0_#DC662D80] max-[779px]:hidden">Заявка на
                     підключення</button>
-                <a class="bg-[#56AABF] w-[66.86px] h-[60px] rounded-sm relative ml-[30px] min-[801px]:hidden striped-box  max-[720px]:h-[35px] max-[720px]:w-[39px]" data-micromodal-trigger="modal-1">
+                <a class="bg-[#56AABF] w-[66.86px] h-[60px] rounded-sm relative ml-[30px] min-[801px]:hidden striped-box  max-[720px]:h-[35px] max-[720px]:w-[39px] cursor-pointer" id="burger">
                     <span class="absolute inset-y-1/4 h-[3.43px] w-[60%] bg-white ml-3.5 max-[720px]:ml-2"></span>
                     <span class="absolute inset-y-2/4 h-[4px] w-[60%] bg-white ml-3.5  max-[720px]:ml-2"></span>
                     <span class="absolute inset-y-3/4 h-[3.43px] w-[60%] bg-white ml-3.5  max-[720px]:ml-2"></span>
@@ -102,5 +101,34 @@
                 підключення</button>
         </div>
     </header>
+    <div id="mobile-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="mobile-modal-content">
+        <div class="mobile-modal-header">
+            <h2>Меню</h2>
+            <button class="close-button" data-modal-toggle="mobile-modal">&times;</button>
+        </div>
+        <div class="mobile-modal-body">
+            <ul class="mobile-modal-links">
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Карта покриття</a></li>
+                <li><a href="#">Оплата</a></li>
+                <li><a href="#">Підтримка</a></li>
+                <li><a href="#">Опції</a></li>
+                <li><a href="#">Все услуги</a></li>
+        </div>
+    </div>
+    
+</div>
 </body>
+<script>
+    const burger = document.getElementById('burger');
+    const mobileModal = document.getElementById('mobile-modal');
+    
+    //add event listener
+    burger.addEventListener('click', () => {
+      const mobileModal = document.getElementById('mobile-modal');
+      mobileModal.classList.toggle('hidden');
+    });
+    
+</script>
 </html>
